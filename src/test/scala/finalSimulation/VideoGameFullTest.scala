@@ -88,7 +88,7 @@ class VideoGameFullTest extends Simulation {
   }
 
   /*** Scenario Design ***/
-  val scn = scenario("Video Game DB")
+  val scn = scenario("Video Game DB v2")
     .forever() {
       exec(getAllVideoGames())
         .pause(2)
